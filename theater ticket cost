@@ -1,4 +1,4 @@
-print("TODAY'S THEATOR TICKET LIST")
+print("TODAY'S THEATER TICKET LIST")
 
 NOA=int(input("enter a num of adults:   \n"))
 NOC=int(input("enter a num of children:   \n"))
