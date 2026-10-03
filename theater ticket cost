@@ -8,7 +8,7 @@ tc=(NOA*200+NOC*120)
 x=tc+NOA*20+NOC*12
 y=tc-NOC*50
 z=x-50*NOC
-if DAY=="weekend" & ID=="yes":
+if DAY=="weekend" and ID=="yes":
     print(z)
 if DAY=="weekend":
     print(x)
