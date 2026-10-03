@@ -1,0 +1,19 @@
+print("TODAY'S THEATOR TICKET LIST")
+
+NOA=int(input("enter a num of adults:   \n"))
+NOC=int(input("enter a num of children:   \n"))
+DAY=(input("day of the week:  \n"))
+ID=input("is there student ID?  \n")
+tc=(NOA*200+NOC*120)
+x=tc+NOA*20+NOC*12
+y=tc-NOC*50
+z=x-50*NOC
+if DAY=="weekend" & ID=="yes":
+    print(z)
+if DAY=="weekend":
+    print(x)
+elif ID=="yes":
+     print(y)
+else:
+    print(NOA*200+NOC*120)
+  
